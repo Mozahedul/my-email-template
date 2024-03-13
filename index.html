@@ -1,0 +1,840 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html
+  lang="en"
+  xml:lang="en"
+  dir="ltr"
+  xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:v="urn:schemas-microsoft-com:vml"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+>
+  <!-- 
+    sets the language of the email, but as email clients often 
+    strip the <html> element it’s also important to set a lang on 
+    a body wrapping element
+   -->
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="x-apple-disable-message-reformatting" />
+    <!-- This meta tag prevents the Apple auto-scaling emails bug  -->
+    <meta
+      name="format-detection"
+      content="telephone=no,address=no,email=no,date=no,url=no"
+    />
+    <!-- disable auto telephone, adress, email and date linking in iOS -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Responsive HTML Email Template</title>
+    <style type="text/css">
+      @media screen and (max-width: 400px) {
+        .column {
+          max-width: 100% !important;
+          vertical-align: top;
+        }
+        .column-3 {
+          max-width: 100% !important;
+          vertical-align: top;
+        }
+
+        /* .column-4 {
+          max-width: 50% !important;
+          text-align: center;
+        } */
+      }
+
+      @media screen and (min-width: 400px) and (max-width: 600px) {
+        .column {
+          max-width: 50% !important;
+          vertical-align: top;
+        }
+
+        .column-3 {
+          max-width: 50% !important;
+          vertical-align: top;
+        }
+
+        /* .column-4 {
+          max-width: 33% !important;
+          vertical-align: top;
+          text-align: center;
+        } */
+      }
+    </style>
+  </head>
+  <body
+    style="
+      margin: 0;
+      padding: 0;
+      min-width: 100%;
+      background-color: antiquewhite;
+    "
+  >
+    <center
+      role="article"
+      aria-roledescription="email"
+      aria-label="mozahed001@gmail.com"
+      lang="en"
+      dir="ltr"
+      style="background-color: #e1e1e1"
+    >
+      <table
+        border="0"
+        cellpadding="0"
+        cellspacing="0"
+        width="100%"
+        height="100%"
+        bgcolor="#f0f0f0"
+        style="
+          table-layout: fixed;
+          width: 100% !important;
+          max-width: 600px !important;
+          font-weight: normal;
+          background-color: #f0f0f0;
+        "
+      >
+        <!-- ======================== -->
+        <!-- START HEADER SECTION -->
+        <!-- ====================== -->
+        <tr>
+          <td
+            align="center"
+            valign="top"
+            style="
+              margin: 0;
+              padding: 0;
+              width: 100% !important;
+              height: 100% !important;
+              font-family: 'Open Sans', serif;
+              font-size: 0;
+              text-align: center;
+            "
+          >
+            <table
+              width="100%"
+              cellpadding="0"
+              cellspacing="0"
+              border="0"
+              style="
+                width: 100%;
+                max-width: 300px;
+                display: inline-block;
+                padding: 10px 0;
+              "
+            >
+              <tr>
+                <td align="center" valign="top" style="width: 300px">
+                  <img
+                    src="images/logo.png"
+                    width="40"
+                    alt="Site logo"
+                    style="width: 100%; max-width: 40px"
+                  />
+                </td>
+              </tr>
+            </table>
+            <!-- END LEFT INNER SECTION -->
+
+            <!-- START RIGHT INNER SECTION -->
+            <table
+              width="100%"
+              cellpadding="0"
+              cellspacing="0"
+              border="0"
+              style="
+                width: 100%;
+                max-width: 300px;
+                display: inline-block;
+                padding: 10px 0;
+              "
+            >
+              <tr>
+                <td align="center" valign="top" style="width: 300px">
+                  <a href="#">
+                    <img
+                      src="images/fb.png"
+                      width="40"
+                      style="width: 100%; max-width: 36px; padding: 0 2px"
+                      alt="Facebook"
+                    />
+                  </a>
+                  <a href="#">
+                    <img
+                      src="images/instagram.png"
+                      width="40"
+                      style="width: 100%; max-width: 36px; padding: 0 2px"
+                      alt="Instagram"
+                    />
+                  </a>
+                  <a href="#">
+                    <img
+                      src="images/twitter.png"
+                      width="40"
+                      style="width: 100%; max-width: 36px; padding: 0 2px"
+                      alt="Twitter"
+                    />
+                  </a>
+                  <a href="#">
+                    <img
+                      src="images/pinterest.png"
+                      width="40"
+                      style="width: 100%; max-width: 36px; padding: 0 2px"
+                      alt="Pinterest"
+                    />
+                  </a>
+                </td>
+              </tr>
+            </table>
+            <!-- END RIGHT INNER SECTION -->
+          </td>
+        </tr>
+        <!-- ========================== -->
+        <!-- END HEADER SECTION -->
+        <!-- ========================== -->
+
+        <!-- ===================== -->
+        <!-- START BODY SECTION -->
+        <!-- ===================== -->
+
+        <!-- START FLUID IMAGE SECTOIN -->
+        <tr style="display: block; margin: 20px 0 0">
+          <td align="center" valign="top">
+            <table border="0" cellspacing="0" cellpadding="0" width="100%">
+              <tr>
+                <td align="center" valign="top">
+                  <img
+                    src="images/hill.jpeg"
+                    width="600"
+                    style="width: 100%; max-width: 600px"
+                    alt=""
+                  />
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!-- END FLUID IMAGE SECTION -->
+
+        <!-- START 2 COLUMNS SECTION -->
+        <tr style="margin: 20px 0; vertical-align: top">
+          <td
+            align="center"
+            valign="top"
+            style="
+              margin: 0;
+              padding: 0;
+              width: 100% !important;
+              font-family: 'Open Sans', serif;
+              font-size: 0;
+              text-align: center;
+              vertical-align: top;
+            "
+          >
+            <!-- start left inner section -->
+            <table
+              width="100%"
+              cellpadding="0"
+              cellspacing="0"
+              border="0"
+              class="column"
+              style="
+                width: 100%;
+                max-width: 300px;
+                display: inline-block;
+                padding: 10px;
+              "
+            >
+              <tr>
+                <td
+                  align="center"
+                  valign="top"
+                  style="width: 100%; vertical-align: top"
+                >
+                  <img
+                    src="images/nature.jpg"
+                    alt="Site logo"
+                    class="column-img"
+                    width="300"
+                    style="width: 100%"
+                  />
+                  <h3
+                    style="font-size: 18px; font-weight: 600; text-align: left"
+                  >
+                    EMAIL CAMPAIGN
+                  </h3>
+                  <p
+                    style="
+                      font-size: 14px;
+                      color: rgb(54, 54, 54);
+                      text-align: left;
+                    "
+                  >
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Modi inventore blanditiis fuga.
+                  </p>
+                  <p
+                    style="
+                      font-size: 12px;
+                      font-weight: 500;
+                      color: #646464;
+                      text-align: left;
+                    "
+                  >
+                    480 Comments <span>.</span> 1203 Views
+                  </p>
+                </td>
+              </tr>
+            </table>
+            <!-- end left inner section -->
+
+            <!-- start right inner section -->
+            <table
+              width="100%"
+              cellpadding="0"
+              cellspacing="0"
+              border="0"
+              class="column"
+              style="
+                width: 100%;
+                max-width: 300px;
+                display: inline-block;
+                padding: 10px;
+              "
+            >
+              <tr>
+                <td
+                  align="center"
+                  valign="top"
+                  style="width: 100%; vertical-align: top"
+                >
+                  <img
+                    src="images/nature.jpg"
+                    width="100%"
+                    style="width: 100%"
+                    alt="Nature"
+                  />
+                  <h3
+                    style="font-size: 18px; font-weight: 600; text-align: left"
+                  >
+                    SOCIAL MEDIA MARKETING
+                  </h3>
+                  <p style="font-size: 14px; text-align: left">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Modi inventore blanditiis fuga.
+                  </p>
+                  <p
+                    style="
+                      font-size: 12px;
+                      font-weight: 500;
+                      color: #646464;
+                      text-align: left;
+                    "
+                  >
+                    320 Comments <span>.</span> 3803 Views
+                  </p>
+                </td>
+              </tr>
+            </table>
+            <!-- end right inner section -->
+          </td>
+        </tr>
+        <!-- END 2 COLUMN SECTION -->
+
+        <!-- START == SMALL BUTTON FLUID -->
+        <tr>
+          <td align="center" valign="middle">
+            <table
+              border="0"
+              cellpadding="0"
+              cellspacing="0"
+              width="100%"
+              style="
+                width: 100%;
+                max-width: 100%;
+                background-color: lightgreen;
+                padding: 12px 16px;
+              "
+            >
+              <!-- Change padding for button style -->
+              <tr>
+                <td align="center" valign="middle" style="width: 600px">
+                  <a
+                    href="#"
+                    style="
+                      text-decoration: none;
+                      font-size: 16px;
+                      letter-spacing: 1px;
+                      font-weight: normal;
+                      background-color: rgb(15, 94, 121);
+                      color: #fff;
+                      padding: 12px 16px;
+                    "
+                  >
+                    <!-- Change padding for button style -->
+                    Show More
+                  </a>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!-- END == SMALL BUTTON FLUID -->
+
+        <!-- START 3 COLUMN SECTIONS -->
+        <tr style="display: block">
+          <td
+            align="center"
+            valign="top"
+            style="
+              margin: 0;
+              padding: 0;
+              width: 100% !important;
+              height: 100% !important;
+              font-family: 'Open Sans', serif;
+              font-size: 0;
+              text-align: center;
+              vertical-align: top;
+            "
+          >
+            <!-- Start 1st inner section -->
+            <table
+              width="100%"
+              cellpadding="0"
+              cellspacing="0"
+              border="0"
+              class="column-3"
+              style="
+                width: 100%;
+                max-width: 200px;
+                display: inline-block;
+                padding: 10px;
+              "
+            >
+              <tr>
+                <td align="center" valign="top" style="width: 100%">
+                  <img
+                    src="images/nature.jpg"
+                    width="100%"
+                    style="width: 100%"
+                    alt=""
+                  />
+                  <h3
+                    style="font-size: 18px; font-weight: 600; text-align: left"
+                  >
+                    SOCIAL MEDIA MARKETING
+                  </h3>
+                  <p style="font-size: 14px; text-align: left">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Modi inventore blanditiis fuga.
+                  </p>
+                  <p
+                    style="
+                      font-size: 12px;
+                      font-weight: 500;
+                      color: #646464;
+                      text-align: left;
+                    "
+                  >
+                    320 Comments <span>.</span> 3803 Views
+                  </p>
+                </td>
+              </tr>
+            </table>
+            <!-- End 1st inner section -->
+
+            <!-- Start 2nd inner section -->
+            <table
+              width="100%"
+              cellpadding="0"
+              cellspacing="0"
+              border="0"
+              class="column-3"
+              style="
+                width: 100%;
+                max-width: 200px;
+                display: inline-block;
+                padding: 10px;
+              "
+            >
+              <tr>
+                <td align="center" valign="top" style="width: 100%">
+                  <img
+                    src="images/nature.jpg"
+                    width="200"
+                    style="width: 100%"
+                    alt=""
+                  />
+                  <h3
+                    style="font-size: 18px; font-weight: 600; text-align: left"
+                  >
+                    SOCIAL MEDIA MARKETING
+                  </h3>
+                  <p style="font-size: 14px; text-align: left">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Modi inventore blanditiis fuga.
+                  </p>
+                  <p
+                    style="
+                      font-size: 12px;
+                      font-weight: 500;
+                      color: #646464;
+                      text-align: left;
+                    "
+                  >
+                    320 Comments <span>.</span> 3803 Views
+                  </p>
+                </td>
+              </tr>
+            </table>
+            <!-- End 2nd inner section -->
+
+            <!-- Start 3rd inner section -->
+            <table
+              width="100%"
+              cellpadding="0"
+              cellspacing="0"
+              border="0"
+              class="column-3"
+              style="
+                width: 100%;
+                max-width: 200px;
+                display: inline-block;
+                padding: 10px;
+              "
+            >
+              <tr>
+                <td align="center" valign="top" style="width: 100%">
+                  <img
+                    src="images/nature.jpg"
+                    width="200"
+                    style="width: 100%"
+                    alt=""
+                  />
+                  <h3
+                    style="font-size: 18px; font-weight: 600; text-align: left"
+                  >
+                    SOCIAL MEDIA MARKETING
+                  </h3>
+                  <p style="font-size: 14px; text-align: left">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Modi inventore blanditiis fuga.
+                  </p>
+                  <p
+                    style="
+                      font-size: 12px;
+                      font-weight: 500;
+                      color: #646464;
+                      text-align: left;
+                    "
+                  >
+                    320 Comments <span>.</span> 3803 Views
+                  </p>
+                </td>
+              </tr>
+            </table>
+            <!-- End 3rd inner section -->
+          </td>
+        </tr>
+        <!-- END 3 COLUMN SECTION -->
+
+        <!-- START 10PX SPACE GENERATION -->
+        <tr>
+          <td align="center" valign="top">
+            <table
+              border="0"
+              cellpadding="0"
+              cellspacing="0"
+              width="600"
+              style="
+                width: 100%;
+                max-width: 600px;
+                display: block;
+                height: 2px;
+                padding: 0;
+                margin: 8px 0;
+              "
+            >
+              <!-- Change the above margin for increasing and decreasing space -->
+              <tr>
+                <td align="center" valign="top" style="width: 600px">&nbsp;</td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!-- END 10PX SPACE GENERATION -->
+
+        <!-- START 4 COLUMN SECTION -->
+        <tr style="display: block; margin: 20px 0">
+          <td
+            align="center"
+            valign="top"
+            style="
+              margin: 0;
+              padding: 0;
+              width: 100% !important;
+              height: 100% !important;
+              font-family: 'Open Sans', serif;
+              font-size: 0;
+              text-align: center;
+              vertical-align: top;
+            "
+          >
+            <!-- Start 1st inner section -->
+            <table
+              width="100%"
+              cellpadding="0"
+              cellspacing="0"
+              border="0"
+              class="column-4"
+              style="
+                width: 100%;
+                max-width: 130px;
+                display: inline-block;
+                padding: 10px;
+                background-color: #c4e4e2;
+                margin: 10px;
+                border-radius: 10px;
+              "
+            >
+              <tr>
+                <td align="center" valign="top" style="width: 130px">
+                  <img
+                    src="images/icons8-amazon-50.png"
+                    width="100%"
+                    style="width: 100%; max-width: 70px"
+                    alt=""
+                  />
+                </td>
+              </tr>
+            </table>
+            <!-- End 1st inner section -->
+
+            <!-- Start 2nd inner section -->
+            <table
+              width="100%"
+              cellpadding="0"
+              cellspacing="0"
+              border="0"
+              class="column-4"
+              style="
+                width: 100%;
+                max-width: 130px;
+                display: inline-block;
+                padding: 10px;
+                background-color: #c4e4e2;
+                margin: 10px;
+                border-radius: 10px;
+              "
+            >
+              <tr>
+                <td align="center" valign="top" style="width: 130px">
+                  <img
+                    src="images/icons8-apple-50.png"
+                    width="100%"
+                    style="width: 100%; max-width: 70px"
+                    alt=""
+                  />
+                </td>
+              </tr>
+            </table>
+            <!-- End 2nd inner section -->
+
+            <!-- Start 3rd inner section -->
+            <table
+              width="100%"
+              cellpadding="0"
+              cellspacing="0"
+              border="0"
+              class="column-4"
+              style="
+                width: 100%;
+                max-width: 130px;
+                display: inline-block;
+                padding: 10px;
+                background-color: #c4e4e2;
+                margin: 10px;
+                border-radius: 10px;
+              "
+            >
+              <tr>
+                <td align="center" valign="top" style="width: 130px">
+                  <img
+                    src="images/icons8-ebay-50.png"
+                    width="100%"
+                    style="width: 100%; max-width: 70px"
+                    alt=""
+                  />
+                </td>
+              </tr>
+            </table>
+            <!-- Start 4th inner section -->
+            <table
+              width="100%"
+              cellpadding="0"
+              cellspacing="0"
+              border="0"
+              class="column-4"
+              style="
+                width: 100%;
+                max-width: 130px;
+                display: inline-block;
+                padding: 10px;
+                background-color: #c4e4e2;
+                margin: 10px;
+                border-radius: 10px;
+              "
+            >
+              <tr>
+                <td align="center" valign="top" style="width: 130px">
+                  <img
+                    src="images/icons8-microsoft-48.png"
+                    width="100%"
+                    style="width: 100%; max-width: 70px"
+                    alt=""
+                  />
+                </td>
+              </tr>
+            </table>
+            <!-- End 3rd inner section -->
+          </td>
+        </tr>
+        <!-- END 4 COLUMN SECTION -->
+
+        <!-- ===================== -->
+        <!-- END BODY SECTION -->
+        <!-- ===================== -->
+
+        <!-- ======== START FOOTER SECTION ========= -->
+        <tr>
+          <td align="center" valign="top">
+            <table
+              border="0"
+              cellpadding="0"
+              cellspacing="0"
+              width="100%"
+              style="width: 100%; background-color: #cfaf89"
+            >
+              <tr>
+                <td align="center" valign="top" style="padding: 30px">
+                  <h3
+                    style="
+                      font-size: 24px;
+                      margin: 0;
+                      padding: 0;
+                      color: rgb(17, 17, 17);
+                    "
+                  >
+                    Mozahedul Islam
+                  </h3>
+                  <p
+                    style="
+                      margin: 0;
+                      padding: 4px 0 0;
+                      color: #1f1f1f;
+                      font-size: 12px;
+                    "
+                  >
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  </p>
+                </td>
+              </tr>
+
+              <!-- Start == full width social media icons -->
+              <tr>
+                <td align="center" valign="top">
+                  <table
+                    border="0"
+                    cellpadding="0"
+                    cellspacing="0"
+                    width="100%"
+                  >
+                    <tr>
+                      <td align="center" valign="top">
+                        <a href="#" style="text-decoration: none">
+                          <img
+                            src="images/fb.png"
+                            alt="facebook"
+                            width="30"
+                            style="width: 100%; max-width: 30px"
+                          />
+                        </a>
+                        <a href="#" style="text-decoration: none">
+                          <img
+                            src="images/instagram.png"
+                            alt="facebook"
+                            width="30"
+                            style="width: 100%; max-width: 30px"
+                          />
+                        </a>
+                        <a href="#" style="text-decoration: none">
+                          <img
+                            src="images/pinterest.png"
+                            alt="facebook"
+                            width="30"
+                            style="width: 100%; max-width: 30px"
+                          />
+                        </a>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <!-- End == full width social media icons -->
+
+              <!-- Start Full width horizontal bar -->
+              <tr>
+                <td align="center" valign="top">
+                  <table
+                    border="0"
+                    cellpadding="0"
+                    cellspacing="0"
+                    width="100%"
+                    style="width: 100%"
+                  >
+                    <tr>
+                      <td align="center" valign="top">
+                        <hr
+                          style="border-color: #7070703f; border-width: 1px"
+                        />
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <!-- End == full width horizontal bar -->
+
+              <tr>
+                <td align="center" valign="top">
+                  <table
+                    border="0"
+                    cellpadding="0"
+                    cellspacing="0"
+                    width="100%"
+                    style="width: 100%; padding: 0 0 15px"
+                  >
+                    <tr>
+                      <td align="center" valign="top">
+                        <p
+                          style="
+                            font-size: 14px;
+                            font-weight: normal;
+                            color: #1f1f1f;
+                          "
+                        >
+                          2261 Market Street #4667 San Francisco, CA 94114
+                        </p>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!-- ======== END FOOTER SECTION ========= -->
+      </table>
+    </center>
+  </body>
+</html>
